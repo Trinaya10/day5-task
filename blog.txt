@@ -1,0 +1,50 @@
+Understanding Window, Screen, and Document in JavaScript
+JavaScript is a versatile programming language that powers interactivity on the web. When working with web development, you often encounter three fundamental objects: window, screen, and document. These objects play crucial roles in manipulating and interacting with the browser environment. In this blog post, we'll explore each of them and understand their significance.
+
+1. The Window Object
+The window object is a global object in the browser environment and serves as the entry point to the browser's features. It represents the browser window or tab and provides access to various properties and methods. Here are some key aspects of the window object:
+
+Properties and Methods:
+Size and Position:
+
+window.innerWidth and window.innerHeight: Provide the inner width and height of the browser window.
+window.outerWidth and window.outerHeight: Give the outer width and height, including toolbars and scrollbars.
+Navigation:
+
+window.location: Contains information about the current URL.
+window.history: Manages the browsing history.
+window.open(): Opens a new browser window or tab.
+Timers:
+
+window.setTimeout() and window.setInterval(): Execute functions after a specified time or at regular intervals.
+Alerts, Confirms, and Prompts:
+
+window.alert(): Displays an alert box with a specified message.
+window.confirm(): Displays a dialog box with OK and Cancel buttons.
+window.prompt(): Prompts the user for input.
+2. The Screen Object
+The screen object provides information about the user's screen, such as its size and resolution. It is a property of the window object. Let's explore some of the key properties:
+
+Properties:
+screen.width and screen.height: Provide the total width and height of the screen.
+screen.availWidth and screen.availHeight: Give the available width and height, excluding taskbars and other system elements.
+screen.pixelDepth: Indicates the color depth of the screen.
+
+3. The Document Object
+The document object represents the HTML document loaded in the browser. It serves as an interface to interact with the content of the page. Key properties and methods include:
+
+Properties:
+document.getElementById(): Retrieves an HTML element by its id.
+document.querySelector() and document.querySelectorAll(): Select elements using CSS selectors.
+document.title: Gets or sets the title of the document.
+Methods:
+document.createElement(): Creates a new HTML element.
+document.createTextNode(): Creates a new text node.
+document.write(): Writes HTML expressions to a document.
+
+
+
+
+
+
+
